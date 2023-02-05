@@ -1,7 +1,6 @@
-#overflow 
 #love calculator
-name1 = "Killer Bee" #input("Your name: ")
-name2 = "Lady Tsunade" #input("Her or His name: ")
+name1 = input("Your name: ")
+name2 = input("Her or His name: ")
 name1 = name1.lower()
 name2 = name2.lower()
 combined_string = name1 + name2
