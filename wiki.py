@@ -8,7 +8,5 @@ chrome_options.add_experimental_option("datch",True)
 
 driver = webdriver.Chrome()
 driver.get(LINK)
-
-#articles = driver.find_element(By.XPATH, value='//*[@id="articlecount"]/a[1]') 
 articles = driver.find_element(By.CSS_SELECTOR, "#articlecount a")
 print(articles.text)
